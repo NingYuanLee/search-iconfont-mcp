@@ -4,7 +4,7 @@
 
 ## 你拥有的能力
 
-通过 iconfont MCP 服务, 你可以:
+通过 search-iconfont-mcp MCP 服务, 你可以:
 1. 搜索 iconfont.cn 上的海量矢量图标
 2. 下载 SVG 图标到本地
 3. 将下载的 SVG 图标嵌入 HTML 原型

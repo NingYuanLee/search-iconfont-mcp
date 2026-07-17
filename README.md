@@ -95,7 +95,7 @@ python server.py
 ```json
 {
   "mcpServers": {
-    "iconfont": {
+    "search-iconfont-mcp": {
       "command": "python",
       "args": ["server.py"],
       "cwd": "{你自己的文件路径}/search-iconfont-mcp",
@@ -119,7 +119,7 @@ python server.py
 ```json
 {
   "mcpServers": {
-    "iconfont": {
+    "search-iconfont-mcp": {
       "command": "python",
       "args": ["server.py"],
       "cwd": "{你自己的文件路径}/search-iconfont-mcp",
@@ -383,6 +383,29 @@ pip list | grep mcp
 ```json
 "cwd": "{你自己的文件路径}/search-iconfont-mcp"
 ```
+
+---
+
+## 参考资料
+
+1. **Model Context Protocol (MCP) 规范** — Anthropic 提出的标准化协议，使 AI 应用能够安全访问外部工具和数据源。
+   - 官方文档: https://modelcontextprotocol.io/
+   - GitHub: https://github.com/modelcontextprotocol
+   - Python SDK: https://github.com/modelcontextprotocol/python-sdk
+
+2. **Playwright** — 微软开发的跨浏览器自动化框架，用于本项目的自动登录流程。
+   - 官方文档: https://playwright.dev/python/
+   - GitHub: https://github.com/microsoft/playwright-python
+
+3. **iconfont.cn (阿里巴巴矢量图标库)** — 阿里巴巴旗下的矢量图标管理平台，提供海量图标资源。
+   - 网站: https://www.iconfont.cn/
+
+4. **Python MCP SDK (`mcp`)** — 基于 Python 的 MCP 协议参考实现，本项目使用其中的 `FastMCP` 快速构建 MCP 服务。
+   - PyPI: https://pypi.org/project/mcp/
+   - 快速入门: https://modelcontextprotocol.io/quickstart/server
+
+5. **MCP 中文社区资源**
+   - MCP 中文文档 (非官方): https://mcpcn.org/
 
 ---
 
