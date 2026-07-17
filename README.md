@@ -379,7 +379,7 @@ pip list | grep mcp
 在 `.cursor/mcp.json` 中使用正斜杠:
 
 ```json
-"cwd": "D:/工作文件/mcp_project/search-iconfont"
+"cwd": "{你自己的文件路径}/search-iconfont-mcp"
 ```
 
 ---
