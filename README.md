@@ -108,9 +108,7 @@ python server.py
 }
 ```
 
-
-你自己的文件路径是："D:/工作文件/mcp_project/"
-> **Windows 路径示例**: `"cwd": "D:/工作文件/mcp_project/search-iconfont-mcp"`
+> 将 `{你自己的文件路径}` 替换为项目所在目录的绝对路径。Windows 请使用正斜杠，例如 `"cwd": "D:/projects/search-iconfont-mcp"`。
 
 ### Claude Desktop 配置
 
