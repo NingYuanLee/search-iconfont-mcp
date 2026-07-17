@@ -53,7 +53,7 @@
 
 ```bash
 git clone <your-repo-url>
-cd search-iconfont
+cd search-iconfont-mcp
 ```
 
 ### 2. 安装依赖
@@ -98,7 +98,7 @@ python server.py
     "iconfont": {
       "command": "python",
       "args": ["server.py"],
-      "cwd": "/path/to/search-iconfont",
+      "cwd": "{你自己的文件路径}/search-iconfont-mcp",
       "env": {
         "ICONFONT_PHONE": "13800138000",
         "ICONFONT_PASSWORD": "your_password"
@@ -108,7 +108,9 @@ python server.py
 }
 ```
 
-> **Windows 路径示例**: `"cwd": "D:/工作文件/mcp_project/search-iconfont"`
+
+你自己的文件路径是："D:/工作文件/mcp_project/"
+> **Windows 路径示例**: `"cwd": "D:/工作文件/mcp_project/search-iconfont-mcp"`
 
 ### Claude Desktop 配置
 
@@ -120,10 +122,10 @@ python server.py
     "iconfont": {
       "command": "python",
       "args": ["server.py"],
-      "cwd": "/path/to/search-iconfont",
+      "cwd": "{你自己的文件路径}/search-iconfont-mcp",
       "env": {
-        "ICONFONT_PHONE": "13800138000",
-        "ICONFONT_PASSWORD": "your_password"
+        "ICONFONT_PHONE": "{你的iconfont手机号}",
+        "ICONFONT_PASSWORD": "{你的iconfont密码}"
       }
     }
   }
