@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+mcp>=1.27,<2
+httpx>=0.27.0
+playwright>=1.40.0
